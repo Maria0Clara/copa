@@ -1,0 +1,83 @@
+
+
+:root {
+    --cor-principal: #650026;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+font-size: 60px;
+color: rgb(24, 18, 13);
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: rgb(255, 241, 225);
+}
+header {
+    background-color: var(--cor-principal);
+}
+
+header .comeco img {
+    height: 160px;
+}
+
+header .comeco {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 980px;
+    height: 160px;
+    margin: auto;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 24px;
+    transition: all 250ms linear 0s;
+}
+
+header nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+form{
+    margin-top: 20px;
+}
+
+form input{
+    width: 380px;
+    padding-left: 15px;
+    font-size: 18px;
+    height: 45px;
+    margin-bottom:13px ;
+    border-radius: 20px;
+    border: 2px solid var(--cor-principal);
+}
+
+form[type="submit"] {
+background-color: var(--cor-principal);
+color: white;
+}
+
+form[type="submit"]:hover{
+cursor: pointer;
+background-color: #8b090e;
+}
+carousel slide{
+
+    text-align: center;
+}
